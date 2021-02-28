@@ -21,13 +21,13 @@
 
 **Development**
 
-`npm run start`
+`npm run start-dev`
 
 - App served @ `http://localhost:3000`
 
 **Production**
 
-`npm run start-prod`
+`npm run start`
 
 - App served @ `http://localhost:8080`
 

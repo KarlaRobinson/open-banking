@@ -20,8 +20,10 @@
   "plugins": ["react", "@typescript-eslint"],
   "rules": {
     "react/display-name": "off",
+    "@typescript-eslint/explicit-module-boundary-types": "off",
+    "@typescript-eslint/no-explicit-any": "off",
     "@typescript-eslint/no-unused-vars": ["error"],
-    "@typescript-eslint/explicit-module-boundary-types": "off"
+    "@typescript-eslint/no-var-requires": 0
   },
   "settings": {
     "react": {
