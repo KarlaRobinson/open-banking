@@ -31,6 +31,12 @@
 
 - App served @ `http://localhost:8080`
 
+**Public Url**
+
+- https://open-banking-app.herokuapp.com
+
+> You can use this Postman Collection to add transaction, balance, account and owner data once you have obtained your user ID! https://developers.belvo.com/docs/test-with-postman
+
 ---
 
 **App Features**
