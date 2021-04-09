@@ -25,6 +25,9 @@ const LinkCreate = ({
       .createWidget(accessToken, {
         callback: (link: string, institution: string) =>
           successCallbackFunction(link, institution),
+        country_codes: ['MX', 'CO'],
+        institution_types: ['retail'],
+        locale: 'en',
         onExit: (data: any) => onExitCallbackFunction(data),
         onEvent: (data: any) => onEventCallbackFunction(data)
       })
